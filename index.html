@@ -9,29 +9,43 @@
 <style>
 	body {
 		margin: 0;
-		font-weight: normal;
+		font-family: sans-serif;
+	}
+
+	h2 {
+		font-size: 
 	}
 
 
 	.encabezado {
 		background-color: black;
+		background: url("images/bg.jpeg") no-repeat center / cover transparent;
+	}
+
+	.encabezado h1 {
+		font-weight: normal;
+	}
+
+	.notNav {
 		color: white;
 		text-align: center;
 		padding: 5% 25% 5% 25%;
-		background: url("images/bg.jpeg") no-repeat center / cover transparent;
 	}
 	
 	nav {
-		padding: 2.5% 15% 0 15%;
-		text-align: right;
-				position: absolute;
+		margin: 0 10%;
 	}
 
 
-	nav, ul, li {
+	nav ul li {
 		display: inline-block;
 		color: grey;
-		position: center right;
+		float: right;
+		padding: 10px 20px;
+	}
+
+	ul {
+		margin: 0;
 	}
 
 	nav img {
@@ -96,7 +110,7 @@
 	}
 
 	.pie {
-		background-color: DimGrey;
+		background-color: #202123;
 		height: 50px;
 		clear: both;
 	}
@@ -104,23 +118,34 @@
 	.pie  p {
 		line-height: 50px;
 		padding-left: 10%;
+		color: grey;
 	}
 
-	.search {
-		float: left;
+	button {
+		background-color: white;
+		padding: 5px 10px;
+		border-radius: 3px;
+		text-decoration: none;
 		border: solid grey 1px;
-		border-radius: 5px;
-		padding: 5px 40px 5px 10px;
-		color: grey;
-		margin: 0 5px 0 0;
+	}
+
+	input {
+		padding: 5px 10px;
+		border-radius: 3px;
+		text-decoration: none;
+		border: solid grey 1px;
 	}
 
 	.enviar {
-		float: left;
 		border: solid grey 1px;
 		border-radius: 5px;
 		padding: 5px 10px 5px 10px;
 		margin: 0 0 5px 0;
+	}
+
+	a {
+		text-decoration: none;
+		color: grey;
 	}
 
 </style>
@@ -128,21 +153,23 @@
 
 </head>
 <body>
+<div class="encabezado">
 	<nav>
 		<img src="images/latam_logo.png" alt="">
 		<ul>
-			<li>Equipo</li>
-			<li>Blog</li>
-			<li>Contacto</li>
+			<li><a href="#">Equipo</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contacto</a></li>
 		</ul>
 	</nav>
-<div class="encabezado">
-	<h1>COMIENZA UNA NUEVA AVENTURA Y ÚNETE AL MUNDO TECNOLÓGICO</h1>
+	<div class="notNav">
+		<h1>COMIENZA UNA NUEVA AVENTURA Y ÚNETE AL MUNDO TECNOLÓGICO</h1>
 	<div class="botones">
 		<div class="azul">Comienza acá</div>
 		<div class="verde">Mas Info</div>
 	</div>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio repudiandae incidunt id, laudantium voluptatum voluptates. </p>
+	</div>
 </div>
 
 <div class="cuerpo">
@@ -166,8 +193,10 @@
 	<div class="derecha">
 		<h2>Suscribete</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-		<div class="search">Ingresa tu email..</div>
-		<div class="enviar">Enviar</div>
+		<!-- <div class="search">Ingresa tu email..</div> -->
+		<input placeholder='Ingresa tu email..   '>	
+		<!-- <div class="enviar">Enviar</div> -->
+		<button>Enviar</button>
 	</div>
 </div>
 
