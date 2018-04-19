@@ -1,0 +1,137 @@
+	body {
+		color: black;
+		line-height: 1.2em;
+	}
+
+	.navbar {
+	   background-color: transparent;
+	   background: transparent;
+	   border-color: transparent;
+	   position: absolute;
+	   top: 0;
+	   z-index: 2;
+	   width: 90%;
+	}
+
+	.navbar li { 
+		color: #000
+	} 
+
+	.jumbotron {
+		margin: 0;
+	}
+
+	.navegacion {
+		margin-bottom: 0;
+		border: 0;
+	}
+
+	.navbar-brand img {
+		max-width: 100px;
+	}
+
+	.notNav {
+		color: white;
+		text-align: center;
+		background-image: url(images/bg.jpeg);
+		background-size: cover;
+		
+		font-size: 1em;
+		padding-top: 100px;
+	}
+
+	.notNav, .titulo {
+		font-size: 1.6em;
+		line-height: 1.2em;
+	}
+	
+	p {
+		font-size: 1.6em;
+		line-height: 1em;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+	}
+
+	.jumbotron .notNav {
+		position: top;
+		margin: 0;
+	}
+
+	.azul {
+		background-color: DodgerBlue;
+		color: white;
+	}
+
+	.verde{
+		background-color: LightGreen;
+		color: white;
+	}
+
+	.boton {
+		border-color: #333;
+		color: #000;
+		margin: 10px;
+	}
+
+	.centrado {
+		text-align: center;
+	}
+
+	.cuerpo {
+		padding: 25px;
+	}
+
+	.txt-normal {
+		font-size: 1.2em;
+	}
+
+	p {
+		font-size: 1.2em;
+		line-height: 25px;
+	}
+
+	/*
+	.jumbotron p {
+		font-size: 1.2em;
+		line-height: 25px;
+	}*/
+
+	h2 {
+		font-weight: bold;
+		padding: 0;
+	}
+
+	.cuerpo p {
+		line-height: 25px;
+	}
+
+	.info {
+		border: solid gray 1px;
+		text-align: left;
+		background-color: white;
+	}
+
+
+	input {
+		padding: 5px 10px;
+		border-radius: 3px;
+		text-decoration: none;
+		border: solid grey 1px;
+	}
+
+	a {
+		text-decoration: none;
+		color: grey;
+	}
+
+	.pie {
+		background-color: #333;
+		padding: 10px 0 0 0;
+		color: #CCC;
+	}
+
+	.info {
+		padding-bottom: 20px;
+	}
